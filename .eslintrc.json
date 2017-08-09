@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  
+  "extends": "airbnb",
+
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-unexpected-multiline": 2,
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "no-confusing-arrow": 0,
+    "linebreak-style": [
+      0,
+      "windows"
+    ]
+  },
+
+  "settings": {
+    "polyfills": [
+      "fetch"
+    ],
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
